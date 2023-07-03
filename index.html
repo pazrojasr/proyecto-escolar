@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Denuncia vecinal</title>
+  </head>
+  <body>
+    <header>
+      <nav class="informacion">
+        <ul>
+          <li><a href="#">normas vecinales</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Denuncia Vecinal</h1>
+    <p>
+      <!-- Descripción de la aplicación web -->
+      Imagina una herramienta en línea que te permite informar y denunciar
+      problemas en tu vecindario, como robos, vandalismo o comportamientos
+      sospechosos, ¡todo desde la comodidad de tu computadora! Esta aplicación
+      web especial te brinda un lugar seguro y confiable para hacer oír tu voz y
+      contribuir a la seguridad de tu comunidad.
+    </p>
+    <br />
+    <h2>¡Haz tu denuncia!</h2>
+    <form>
+      <label for="tipo">Tipo de problema:</label>
+      <input type="text" id="tipo" name="tipo" required />
+
+      <label for="descripcion">Descripción detallada:</label>
+      <textarea id="descripcion" name="descripcion" required></textarea>
+
+      <label for="evidencia">Adjuntar evidencia:</label>
+      <input type="file" id="evidencia" name="evidencia" />
+      <br />
+      <br />
+      <button type="submit">Enviar Denuncia</button>
+    </form>
+    <script src="js/app.js"></script>
+  </body>
+</html>
